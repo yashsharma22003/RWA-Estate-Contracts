@@ -9,11 +9,11 @@ import {TREXDeployer} from "../lib/ERC-3643/contracts/factory/TREXDeployer.sol";
 
 contract DeployAll is Script {
     function run() external {
-        // !!! IMPORTANT: Fill in these two addresses before running !!!
+        // !!! IMPORTANT: Fill in these two addresses before running !!!script/deployTREXFactoryNew.s.sol
         // This should be the address of your deployed and configured TREXImplementationAuthority
-        address implementationAuthority = 0x0165878A594ca255338adfa4d48449f69242Eb8F;
+        address implementationAuthority = 0x8A791620dd6260079BF849Dc5567aDC3F2FdC318;
         // This should be the address of your deployed IdFactory
-        address idFactory = 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6;
+        address idFactory = 0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e;
 
         vm.startBroadcast();
 

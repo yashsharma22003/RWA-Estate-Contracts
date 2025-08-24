@@ -5,10 +5,10 @@
       "rev": "c64a1edb67b6e3f4a15cca8909c9482ad33a02b0"
     }
   },
-  "lib/solidity": {
+  "lib/forge-std": {
     "tag": {
-      "name": "2.2.1",
-      "rev": "a483cda6821e3883497972d36d0c4c1e1693e483"
+      "name": "v1.10.0",
+      "rev": "8bbcf6e3f8f62f419e5429a0bd89331c85c37824"
     }
   },
   "lib/ERC-3643": {
@@ -17,10 +17,10 @@
       "rev": "b6c5fabf86e733ede017fef754d59eeb8f80e3f4"
     }
   },
-  "lib/forge-std": {
+  "lib/solidity": {
     "tag": {
-      "name": "v1.10.0",
-      "rev": "8bbcf6e3f8f62f419e5429a0bd89331c85c37824"
+      "name": "2.2.1",
+      "rev": "a483cda6821e3883497972d36d0c4c1e1693e483"
     }
   }
 }

@@ -15,7 +15,7 @@ contract setImplementationAuthorityFactory is Script {
     address public iaFactoryAddress = 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6;
     // =================================================================
 
-    address public trexFactoryAddress = 0x610178dA211FEF7D417bC0e6FeD39F05609AD788;
+    address public trexFactoryAddress = 0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE;
 
     function run() external {
         // Ensure you have set the addresses above before running!

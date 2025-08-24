@@ -5,11 +5,11 @@ import {Script} from "forge-std/Script.sol";
 import {console} from "forge-std/console.sol";
 import {ITREXFactory} from "../lib/ERC-3643/contracts/factory/ITREXFactory.sol";
 
-contract DeployTrexSuite is Script {
+contract setupTREXSuite is Script {
     // 1. CONFIGURE YOUR DEPLOYMENT
     // =======================================================================================
     // The address of your deployed and configured TREXFactory contract
-    address public factoryAddress = 0x610178dA211FEF7D417bC0e6FeD39F05609AD788;
+    address public factoryAddress = 0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE;
 
     // A unique salt for this deployment. Change this for each new token you deploy.
     string public salt = "MyTokenSale_01";
