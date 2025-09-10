@@ -9,13 +9,13 @@ contract setImplementationAuthorityFactory is Script {
     // 1. SET YOUR ADDRESSES HERE
     // =================================================================
     // The address of the deployed TREXImplementationAuthority contract
-    address public authorityAddress = 0x0165878A594ca255338adfa4d48449f69242Eb8F;
+    address public authorityAddress = 0x53ACe7307B7dbF39F9fB5876FCfd3ac1fB07471e;
 
     // The address of the IA Factory contract you want to link
-    address public iaFactoryAddress = 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6;
+    address public iaFactoryAddress = 0x3B746CC01bFCe0CE93a82FA49c6Bdde1C3BA550E;
     // =================================================================
 
-    address public trexFactoryAddress = 0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE;
+    address public trexFactoryAddress = 0x19c99c82512E85732d0f9c563E550bea00A04070;
 
     function run() external {
         // Ensure you have set the addresses above before running!

@@ -6,4 +6,10 @@ optimizer = true
 optimizer_runs = 200
 via_ir = true
 
+[rpc_endpoints]
+polygonAmoy = "${POLYGON_AMOY_RPC_URL}"
+
+[etherscan]
+polygonAmoy = { key = "${POLYGONSCAN_API_KEY}" }
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

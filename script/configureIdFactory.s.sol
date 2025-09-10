@@ -9,10 +9,10 @@ contract configureIdFactory is Script {
     // 1. SET YOUR ADDRESSES HERE
     // =================================================================
     // The address of the deployed TREXImplementationAuthority contract
-    address public idFactoryAddress = 0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1;
+    address public idFactoryAddress = 0x39992CCEAEDB0fa8f4fd3f2FBC5134707635B371;
     IIdFactory public idFactory = IIdFactory(idFactoryAddress);
 
-    address public trexFactoryAddress = 0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE;
+    address public trexFactoryAddress = 0x19c99c82512E85732d0f9c563E550bea00A04070;
 
     function run() external {
         // Ensure you have set the addresses above before running!

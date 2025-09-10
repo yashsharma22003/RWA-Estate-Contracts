@@ -8,8 +8,8 @@ import {TREXFactory} from "../lib/ERC-3643/contracts/factory/TREXFactory.sol";
 
 contract deployTREXFactory is Script {
 
- address public implementationAuthority = 0x0165878A594ca255338adfa4d48449f69242Eb8F;
- address public idFactory = 0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1;
+ address public implementationAuthority = 0x53ACe7307B7dbF39F9fB5876FCfd3ac1fB07471e;
+ address public idFactory = 0x39992CCEAEDB0fa8f4fd3f2FBC5134707635B371;
 
     function run() external {
 

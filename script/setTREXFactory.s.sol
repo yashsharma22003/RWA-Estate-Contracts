@@ -9,10 +9,10 @@ contract setImplementationAuthorityFactory is Script {
     // 1. SET YOUR ADDRESSES HERE
     // =================================================================
     // The address of the deployed TREXImplementationAuthority contract
-    address public authorityAddress = 0x0165878A594ca255338adfa4d48449f69242Eb8F;
+    address public authorityAddress = 0x53ACe7307B7dbF39F9fB5876FCfd3ac1fB07471e;
 
 
-    address public trexFactoryAddress = 0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE;
+    address public trexFactoryAddress = 0x19c99c82512E85732d0f9c563E550bea00A04070;
 
     function run() external {
         // Ensure you have set the addresses above before running!

@@ -7,7 +7,7 @@ import {console} from "../lib/forge-std/src/console.sol";
 import {IdFactory} from "../lib/solidity/contracts/factory/IdFactory.sol";
 contract deployTREXFactory is Script {
 
- address public implementationAuthority = 0x0B306BF915C4d645ff596e518fAf3F9669b97016;
+ address public implementationAuthority = 0x90Baf8fc42a2d5eCe11152F9CC64E1C733928f23;
 
     function run() external {
 

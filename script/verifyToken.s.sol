@@ -54,15 +54,15 @@ contract ManageToken is Script {
 
         vm.startBroadcast(ownerPrivateKey);
         console.log("Action: Owner is adding", agent, "as an agent on the Identity Registry...");
-        identityRegistry.addAgent(agent);
+        // identityRegistry.addAgent(agent);
         vm.stopBroadcast();
 
         vm.startBroadcast(agentPrivateKey);
         console.log("Action: Agent", agent, "is registering User A...");
-        identityRegistry.registerIdentity(userA, address(0), 840);
+        // identityRegistry.registerIdentity(userA, address(0), 840);
         
         console.log("Action: Agent", agent, "is registering User B...");
-        identityRegistry.registerIdentity(userB, address(0), 840);
+        // identityRegistry.registerIdentity(userB, address(0), 840);
 
         vm.assertTrue(identityRegistry.isVerified(userA), "FAIL: User A should be verified.");
         vm.assertTrue(identityRegistry.isVerified(userB), "FAIL: User B should be verified.");
